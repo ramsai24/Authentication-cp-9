@@ -145,6 +145,7 @@ app.put("/change-password", async (request, response) => {
   console.log(oldPassword.length < 5);
 
   if (newPassword.length < 5) {
+    //correction is here
     response.status(400);
     response.send("Password is too short");
   } else {
