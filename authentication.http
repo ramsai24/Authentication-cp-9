@@ -2,11 +2,11 @@ POST http://localhost:3000/register/
 Content-Type:application/json 
 
 {
-    "username":"adam_richar",
-    "name":"Adam Richar", 
-    "password":"richard_5",
+    "username":"ramsai24",
+    "name":"ramsai", 
+    "password":"ramsai123",
     "gender":"male",
-    "location":"Detroit"
+    "location":"Pamarru"
 }
 
 ###
@@ -15,8 +15,8 @@ POST http://localhost:3000/login/
 Content-Type:application/json 
 
 {
-    "username":"adam_richar",
-    "password":"richard_5"
+    "username":"ramsai24",
+    "password":"jnrsai123"
 }
 
 ###
@@ -24,8 +24,8 @@ PUT http://localhost:3000/change-password/
 Content-Type:application/json 
 
 {
-    "username":"adam_richar",
-    "oldPassword":"richard_5",
-    "newPassword":"richard@123"
+    "username":"ramsai24",
+    "oldPassword":"jnrsai123",
+    "newPassword":"ramsai123"
 }
 
